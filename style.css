@@ -11,19 +11,136 @@
   height: calc(100vh - 100px);
 }
 
+
+/* colonna sinistra */
 .colsin{
+  display: flex;
   width: 20%;
+  background-color: black;
+  flex-direction: column;
+}
+
+.colsin img{
+  width: 20%;
+}
+
+.colsin h1{
+  color: white;
+}
+
+.colsin ul{
+  color: white;
+  margin: 10px;
+}
+
+.colsin li{
+  margin-bottom: 10px;
+}
+
+
+/* colonna centrale */
+.coldes{
+  background-color: rgb(19, 32, 32);
+  width: 80%;
+  overflow: auto;
+
+}
+
+.altezza{
+  height: 50px;
+  background-color: rgb(26, 26, 26);
+}
+
+.altezza button{
+  float: right;
+  font-size: 125%;
+  margin-right: 20px;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-top: 10px;
+  color: white;
   background-color: black;
 }
 
-.coldes{
-  background-color: red;
-  width: 80%;
-  overflow: auto;
+.evidenza{
+  display: flex;
+  justify-content: center;
 }
 
+.evidenza a{
+  margin: 10px;
+  text-decoration: none;
+  color: grey;
+}
+
+.recent{
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/* contenitori */
+
+h3{
+  color:white;
+  margin-left: 20px;
+}
+
+h5{
+  margin-left: 50px;
+  color: grey;
+}
+
+
+
+.contenitore1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenitore1 img{
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.contenitore2{
+  display: flex;
+  width: 32%;
+}
+
+.contenitore2 img{
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+/* contenitore3 */
+
+.contenitore3{
+  display: flex;
+  width: 32%;
+}
+
+.contenitore3 img{
+  width: 90%;
+  margin-left: 15px;
+  margin-top: 20px;
+  border-radius: 80px;
+}
+
+.artist{
+  margin-left: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+/* footer */
 footer{
-  background-color: blue;
+  background-color: dimgrey;
   height: 100px;
   width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
