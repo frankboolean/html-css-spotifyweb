@@ -31,12 +31,17 @@
 .colsin ul{
   color: white;
   margin: 10px;
+  color: grey;
 }
 
 .colsin li{
   margin-bottom: 10px;
+
 }
 
+.unico{
+  color: white;
+}
 
 /* colonna centrale */
 .coldes{
@@ -52,13 +57,14 @@
 
 .altezza button{
   float: right;
-  font-size: 125%;
+  font-size: 100%;
   margin-right: 20px;
   text-decoration: none;
   border-radius: 7px;
   margin-top: 10px;
   color: white;
   background-color: black;
+  padding: 7px;
 }
 
 .evidenza{
@@ -92,7 +98,9 @@ h5{
   color: grey;
 }
 
-
+h4{
+  color: grey;
+}
 
 .contenitore1{
   display: flex;
@@ -111,6 +119,17 @@ h5{
   margin-right: 10px;
 }
 
+.split h3{
+  margin-left: 50px;
+}
+
+.cure h3{
+  margin-left: 40px;
+}
+
+.sinise h3{
+  margin-left: 40px;
+}
 
 .contenitore2{
   display: flex;
@@ -167,7 +186,44 @@ footer{
   margin-top: 20px;
   margin-left: 20px;
   float: left;
+  margin-right: 10px;
+}
+
+.fine2{
+  margin-top: 30px;
+  margin-left: 10px;
+  float: left;
+}
+
+.cuore{
+  float: left;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.soprfine i{
+  margin-left: 120px;
+  margin-top: 20px;
 }
 
 
+
+.inutiles{
+  border: 1px solid white;
+  width: 400px;
+  margin-left: 440px;
+  margin-top: 20px;
+}
+
+.destrul{
+  width: 300px;
+  border: 1px solid white;
+  margin-left: 1000px;
+}
+
+
+.pc{
+  float: right;
+padding-right: : 50px:
+}
 /* media query */
