@@ -104,6 +104,24 @@ h4{
   color: grey;
 }
 
+.contenitore1 .traspa{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.primo:hover .traspa{
+  display: block;
+}
+
+
+
 .contenitore1{
   display: flex;
   justify-content: flex-start;
@@ -116,9 +134,11 @@ h4{
   margin-top: 20px;
 }
 
+
 .primo{
   flex-basis: 150px;
   margin-right: 10px;
+  position: relative;
 }
 
 .split h3{
@@ -132,6 +152,27 @@ h4{
 .sinise h3{
   margin-left: 40px;
 }
+
+
+.metal:hover .traspa{
+  display: block;
+}
+
+.contenitore2 .traspa{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
 
 .contenitore2{
   display: flex;
@@ -147,6 +188,7 @@ h4{
 .metal{
   flex-basis: 150px;
   margin-right: 10px;
+  position: relative;
 }
 
 /* contenitore3 */
