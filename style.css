@@ -114,12 +114,13 @@ h4{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+
 }
 
 .primo:hover .traspa{
   display: block;
-}
 
+}
 
 
 .contenitore1{
@@ -231,46 +232,59 @@ footer{
 .fine img{
   max-width: 50px;
   max-height: 50px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 10px;
+  padding: 5px;
 }
 
 .fine{
   display: flex;
-  justify-content: space-between;
-
+  flex-basis: 0;
+  flex-grow: 1;
+  align-items: center;
+  padding: 10px;
 }
 
-.fine p{
-  margin-top: 20px;
-}
-
-.fine i{
-  margin-top: 60px;
-  margin-left: 10px;
-}
-
-.rm{
-  margin-top: 80px;
-}
-
-.linea{
-  margin: 40px;
-}
-
-.verde{
-  display: flex;
-}
-
-.rosso{
-  margin-right: 20px;
-  margin-top: 20px;
+.carta{
+  margin: 5px;
 }
 
 .caldo{
   display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex-grow: 2;
+  justify-content: center;
 }
+
+.controllo-bottoni {
+  text-align: center;
+}
+
+.controllo-bottoni i {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.controllo-tempo {
+  display: flex;
+}
+
+.controllo-tempo .barra-tempo {
+  flex-basis: 100%;
+  background-color: red;
+  margin:7px 2px;
+}
+
+.rosso{
+  margin: 5px;
+}
+.verde{
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 
 
 
